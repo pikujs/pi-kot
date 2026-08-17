@@ -3,6 +3,9 @@
   "version": "0.1.38",
   "private": true,
   "type": "module",
+  "bin": {
+    "pi-kot": "bin/pi-kot.mjs"
+  },
   "workspaces": [
     "packages/*"
   ],
