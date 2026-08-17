@@ -16,7 +16,7 @@
         version = "0.1.38";
         src = self;
         # Discovered via build iteration (lib.fakeHash → paste `got:` value).
-        npmDepsHash = lib.fakeHash;
+        npmDepsHash = "sha256-0thCVzwcJ7L9asVHqtYIPU6OOCw4/s4LMKApfrfuV8E=";
         # Workspace support (packument caching). Always set BEFORE computing npmDepsHash.
         npmDepsFetcherVersion = 2;
         # node-pty node-gyp fallback (prebuild-install is tried first by node-pty itself).

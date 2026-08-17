@@ -6,6 +6,12 @@
   "bin": {
     "pi-kot": "bin/pi-kot.mjs"
   },
+  "files": [
+    "bin",
+    "packages/server/dist",
+    "packages/client/dist",
+    "patch-branch-summary.mjs"
+  ],
   "workspaces": [
     "packages/*"
   ],
